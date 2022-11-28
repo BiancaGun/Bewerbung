@@ -1,0 +1,278 @@
+body {
+	background-image: url("Bilder/ML.png"),
+					  url("Bilder/BG2.png");
+	background-position: top, center;
+	background-repeat: no-repeat;
+	background-color: #eee;
+	background-attachment: scroll, fixed;
+	border-width: 0 25px 0 25px;
+	border-right-color: #000;
+	border-left-color: #000;
+	border-style: solid;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: auto;
+	margin-top: 47px;
+	width: 900px;
+}
+
+* {
+	color: #000;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 50px;
+}
+
+table {
+	margin: auto;
+	width: 800px;
+	border-color: #000;
+	border-width: 10px;
+	border-style: groove;
+}
+
+a{
+	color: #3d9298;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #3d9298;
+	text-decoration: none;	
+}
+
+ a:active{
+	color: #3d9298;
+	text-decoration: none;	
+}
+
+a:hover{
+	color: #3d9298;
+	text-decoration: none;
+	text-shadow: 0 0 10px #fff,
+	0 0 20px #000,
+	0 0 30px #000;
+}
+
+ a:focus{
+	color: #3d9298;
+	text-decoration: none;	
+}
+
+#site-content {
+	padding: 50px;
+	padding-top: 100px;
+}
+
+#site-footer {
+	margin: auto;
+	text-align: center;
+}
+
+.clear-both {
+	clear: both;
+}
+
+#navi {
+	width: 400px;
+	height: 40px;
+	font-size: 40px;
+	float: left;
+	color: #eee;
+}
+
+#navi ul {
+	list-style: none;
+}
+
+#navi ul li {
+	padding: 10px;
+	margin-right: 60px;
+	margin-top: -47px;
+	float: left;
+}
+
+#navi ul li ul li{
+	clear:both;
+	font-size: 20px;
+	height: 25px;
+	width: 200px;
+	margin: 0px;
+	border-style: groove;
+	border-color: black;
+	border-width: 5px;
+	background: #000;
+	text-align: center;
+	color: #eee;
+}
+
+#navi ul ul {
+	position: absolute;
+	display: none;
+} 
+
+#navi a:link {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#navi a:visited {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#navi a:focus {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#navi a:hover {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 10px #FFFFFF,
+    0 0 20px #FFFFFF,
+    0 0 30px #FFFFFF,
+    0 0 40px #15f4ca,
+    0 0 70px #15f4ca,
+    0 0 80px #15f4ca,
+    0 0 100px #15f4ca,
+    0 0 150px #15f4ca;
+}
+
+#navi ul li ul li:hover {
+	color: #fff;
+	background: #000;
+	border-style: groove;
+	border-color: white;
+	border-width: 5px;
+}	
+
+#navi ul li:hover ul {
+	display: block;
+	margin-top: 0px;
+	margin-left: -75px;
+}
+
+#navi2 {
+	width: 400px;
+	height: 40px;
+	font-size: 40px;
+	float: right;
+}
+
+#navi2 ul {
+	list-style: none;
+}
+
+#navi2 ul li {
+	padding: 10px;
+	padding-right: 50px;
+	margin-top: -47px;
+	float: right;
+}
+
+#navi2 a:link {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#navi2 a:visited {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#navi2 a:focus {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#navi2 a:hover {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 10px #FFFFFF,
+    0 0 20px #FFFFFF,
+    0 0 30px #FFFFFF,
+    0 0 40px #15f4ca,
+    0 0 70px #15f4ca,
+    0 0 80px #15f4ca,
+    0 0 100px #15f4ca,
+    0 0 150px #15f4ca;
+}	
+
+#navi2 a:active {
+	color: #eee;
+	text-decoration: none;
+}
+
+#unavi {
+	font-size: 40px;
+	text-align: center;
+	float: middle;
+	padding-top: 100px;
+}
+
+#unavi ul {
+	list-style: none;
+}
+
+#unavi ul ul {
+	position: absolute;
+	display: none;
+} 
+
+#unavi ul li {
+	width: 450px;
+	height: 50px;
+	float: middle;
+	border: 10px groove black;
+	background-color: #000;
+	margin:auto;
+	margin-top: 20px;
+}
+
+#unavi a:link {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#unavi a:visited {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#unavi a:focus {
+	color: #eee;
+	text-decoration: none;
+}	
+
+#unavi a:hover {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #15f4ca,
+    0 0 70px #15f4ca,
+    0 0 80px #15f4ca,
+    0 0 100px #15f4ca,
+    0 0 150px #15f4ca;
+}	
+
+#unavi ul li:hover {
+	color: #fff;
+	background: #000;
+	border-style: groove;
+	border-color: white;
+	border-width: 10px;
+}	
+
+#unavi a:active {
+	color: #eee;
+	text-decoration: none;
+}
+
